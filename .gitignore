@@ -30,9 +30,18 @@ storage/
 database/sessions/
 database/master_profile.json
 database/master_profile_*.json
+database/applications.json
+database/autonomous_config.json
+database/jobs.json
+database/queue.json
+database/seeds/master_profile.json
 *.pdf
 public/screenshots/*.png
 !public/screenshots/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+tsconfig.tsbuildinfo
+yarn.lock
 
 # Operating System Files
 .DS_Store
